@@ -1,0 +1,13 @@
+<main>
+	{{#each photos}}
+		<a href='portraits/{{folder}}' class="allPhotoSets" loading="lazy">
+			<picture>
+				<source srcset="/images/{{folder}}/{{#each photos}}{{#if @first}}{{this}}{{/if}}{{/each}}_480.webp 480w,
+								/images/{{folder}}/{{#each photos}}{{#if @first}}{{this}}{{/if}}{{/each}}_960.webp 960w,
+								/images/{{folder}}/{{#each photos}}{{#if @first}}{{this}}{{/if}}{{/each}}_1920.webp 1920w" type="image/webp">
+				<img src="/images/{{folder}}/{{#each photos}}{{#if @first}}{{this}}{{/if}}{{/each}}_1920.jpg" alt="{photo.name}" loading="lazy">
+			</picture>
+		</a>
+	{{/each}}
+</main>
+

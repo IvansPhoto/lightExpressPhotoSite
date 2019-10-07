@@ -1,0 +1,40 @@
+#bigImage {
+	display: flex;
+	align-items: start;
+	justify-content: center;
+
+	position: sticky;
+	top: 8vh;
+	width: calc((100vw - 12rem) * 0.75);
+	padding: 0 3rem;
+}
+
+img {
+	max-width: 100%;
+	max-height: 85vh;
+	box-sizing: border-box;
+}
+
+#gallery {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	width: calc((100vw - 12rem) * 0.25);
+	line-height: 0;
+}
+
+@media screen and (max-width: 764px) {
+
+	#bigImage {
+		display: none;
+	}
+	img {
+		width: 100%;
+		max-height: 100vh;
+	}
+	#gallery {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+}

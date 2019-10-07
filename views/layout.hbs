@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{title}}</title>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="/images/favicon.ico">
+	{{#if metaTags}}
+		<meta name="keywords" content="{{metaTags}}">
+	{{/if}}
+	<link rel='stylesheet' href='/stylesheets/style.css'/>
+	<link rel='stylesheet' href='/stylesheets/{{pageStyle}}.css'/>
+	<script defer src="/javascripts/mobileNav.js"></script>
+	{{#if pageScript}}
+		<script defer src="/javascripts/{{pageScript}}.js"></script>
+	{{/if}}
+</head>
+<body>
+{{> _nav}}
+
+{{{body}}}
+</body>
+</html>
