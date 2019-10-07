@@ -7,7 +7,6 @@ const photosModel = require('./../models/photosModel')
 router.get('/', async (req, res) => {
 	try {
 		const photos = await photosModel.find({})
-		console.log(photos)
 		res.render('portraits', {title: 'Portraits', pageStyle: 'portraits', photos: photos, metaTags: "portraits, girls, photos"})
 	} catch (e) {
 		console.error(e)
