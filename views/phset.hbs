@@ -1,18 +1,22 @@
 <main id="bigImage">
-		<picture>
-			<source srcset="/images/{{photoSet.folder}}/{{#each photoSet.photos}}{{#if @first}}{{this}}{{/if}}{{/each}}_480.webp 480w,
-								/images/{{photoSet.folder}}/{{#each photoSet.photos}}{{#if @first}}{{this}}{{/if}}{{/each}}_960.webp 960w,
-								/images/{{photoSet.folder}}/{{#each photoSet.photos}}{{#if @first}}{{this}}{{/if}}{{/each}}_1920.webp 1920w," type="image/webp" sizes="70vw">
-			<img src="/images/{{photoSet.folder}}/{{#each photoSet.photos}}{{#if @first}}{{this}}{{/if}}{{/each}}_1920.jpg" alt="{{photoSet.name}}" loading="lazy">
+	<h1>{{photoSet.name}}</h1>
+	{{#each photoSet.photos}}
+		<picture id="{{@index}}">
+			<source srcset="/images/{{../photoSet.folder}}/{{this}}_480.webp 480w,
+								/images/{{../photoSet.folder}}/{{this}}_960.webp 960w,
+								/images/{{../photoSet.folder}}/{{this}}_1920.webp 1920w" type="image/webp" sizes="70w">
+			<img src="/images/{{../photoSet.folder}}/{{this}}_1920.jpg" alt="{{../photoSet.name}}" loading="lazy">
 		</picture>
+	{{/each}}
+	<p>{{photoSet.description}}</p>
 </main>
-	<div id="gallery">
-		{{#each photoSet.photos}}
-			<picture>
-				<source srcset="/images/{{../photoSet.folder}}/{{this}}_480.webp 480w,
+<div id="gallery">
+	{{#each photoSet.photos}}
+		<picture>
+			<source srcset="/images/{{../photoSet.folder}}/{{this}}_480.webp 480w,
 								/images/{{../photoSet.folder}}/{{this}}_960.webp 960w,
 								/images/{{../photoSet.folder}}/{{this}}_1920.webp 1920w" type="image/webp" sizes="(min-width: 700px) 20vw, 100w">
-				<img src="/images/{{../photoSet.folder}}/{{this}}_1920.jpg" alt="{{../photoSet.name}}" loading="lazy">
-			</picture>
-		{{/each}}
-	</div>
+			<img src="/images/{{../photoSet.folder}}/{{this}}_1920.jpg" alt="{{../photoSet.name}}" loading="lazy" index="{{@index}}">
+		</picture>
+	{{/each}}
+</div>

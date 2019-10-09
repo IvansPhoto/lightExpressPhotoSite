@@ -1,12 +1,21 @@
 #bigImage {
 	display: flex;
-	align-items: start;
+	flex-direction: column;
+	align-items: center;
 	justify-content: center;
 
 	position: sticky;
-	top: 8vh;
+	top: 3vh;
 	width: calc((100vw - 12rem) * 0.75);
 	padding: 0 3rem;
+}
+
+#bigImage picture {
+	display: none;
+}
+
+.shown {
+	display: flex !important;
 }
 
 img {

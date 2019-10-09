@@ -1,6 +1,5 @@
 :root {
 	/*font-size: 15px;*/
-
 	--colorRed: hsl(0, 70%, 50%);
 	--colorOrange: hsl(25, 70%, 50%);
 	--colorYellow: hsl(50, 70%, 50%);
@@ -8,7 +7,6 @@
 	--colorCyan: hsl(180, 60%, 30%);
 	--colorBlue: hsl(240, 40%, 35%);
 	--colorPurple: hsl(300, 40%, 40%);
-
 	--colorDark: hsl(0, 0%, 10%);
 	--colorLight: hsl(0, 0%, 90%);
 	--colorGreyL: hsl(0, 0%, 75%);
@@ -22,7 +20,6 @@ body {
 	font-family: 'Helvetica', sans-serif;
 	color: var(--colorLight);
 	background-color: var(--colorDark);
-
 	display: flex;
 	align-items: start;
 	align-content: start;
@@ -106,6 +103,7 @@ nav {
 	nav {
 		display: none;
 		margin: 0;
+		overflow: hidden;
 	}
 	.shown {
 		top: 0;
@@ -125,8 +123,8 @@ nav {
 		background-color: var(--colorDark);
 	}
 	.cyan {
-		fill: var(--colorCyan) !important;
-		background-color: hsla(180,10%,25%) !important;
+		fill: var(--colorOrange) !important;
+		background-color: hsla(15,10%,25%) !important;
 	}
 
 	.baseLink {
