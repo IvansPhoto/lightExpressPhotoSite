@@ -1,8 +1,8 @@
 const express = require('express')
 const router = express.Router()
 const mongoose = require('mongoose')
-
 const photosModel = require('./../models/photosModel')
+
 
 router.get('/', async (req, res) => {
 	try {

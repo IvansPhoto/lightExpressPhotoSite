@@ -4,8 +4,7 @@
 	"private": true,
 	"main": "app.js",
 	"engines": {
-		"node": "10.16.3",
-		"npm": "6.11.3"
+		"node": "10.x"
 	},
 	"scripts": {
 		"start": "node app.js",
