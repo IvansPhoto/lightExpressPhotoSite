@@ -101,26 +101,30 @@ nav {
 @media screen and (max-width: 764px) {
 
 	nav {
-		display: none;
-		margin: 0;
-		overflow: hidden;
-	}
-	.shown {
-		top: 0;
-		left: 0;
-		width: 100vw;
-		height: 100vh;
+		all: unset;
 		position: fixed;
+		top: 0;
+		bottom: 0;
+		left: 100%;
+		right: 0;
+		width: 100vw;
+		transition: left 500ms;
+
 		z-index: 10;
+		overflow: auto;
 
 		padding-top: 3.75rem;
 		padding-left: 1rem;
 
 		display: flex;
+		flex-direction: column;
 		align-items: flex-start;
 		justify-content: flex-start;
 
 		background-color: var(--colorDark);
+	}
+	.shown {
+		left: 0;
 	}
 	.cyan {
 		fill: var(--colorOrange) !important;
