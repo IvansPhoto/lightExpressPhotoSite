@@ -1,10 +1,14 @@
 const express = require('express')
 const hbs = require('hbs')
 const path = require('path')
+const compression = require('compression')
 const app = express()
 const PORT = process.env.PORT || 3001
 
 const mongoConnect = require('./models/mongoConnect')
+
+//Compression, but it doesn't compress.
+app.use(compression({ threshold: 0 }))
 
 app.set('view engine', 'hbs')
 app.set('views', path.join(__dirname, 'views'))
@@ -48,7 +52,21 @@ app.use('/', require('./routes/index'))
 app.use('/portraits', require('./routes/portraits'))
 app.use('/portraits/', require('./routes/phset'))
 
+
 app.listen(PORT, err => {
 	console.log(`Listen on ${PORT}`)
 	if(err) console.error(err)
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
