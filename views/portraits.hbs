@@ -4,7 +4,7 @@
 			<picture>
 				<source srcset="/images/{{folder}}/{{#each photos}}{{#if @first}}{{this}}{{/if}}{{/each}}_480.webp 480w,
 								/images/{{folder}}/{{#each photos}}{{#if @first}}{{this}}{{/if}}{{/each}}_960.webp 960w,
-								/images/{{folder}}/{{#each photos}}{{#if @first}}{{this}}{{/if}}{{/each}}_1920.webp 1920w" type="image/webp">
+								/images/{{folder}}/{{#each photos}}{{#if @first}}{{this}}{{/if}}{{/each}}_1920.webp 1920w" type="image/webp" sizes="30vw">
 				<img src="/images/{{folder}}/{{#each photos}}{{#if @first}}{{this}}{{/if}}{{/each}}_1920.jpg" alt="{photo.name}" loading="lazy">
 			</picture>
 		</a>

@@ -6,7 +6,7 @@
 
 	position: sticky;
 	top: 3vh;
-	width: calc((100vw - 12rem) * 0.75);
+	width: calc((100vw - var(--navWidth)) * 0.75);
 	padding: 0 3rem;
 }
 
@@ -28,7 +28,7 @@ img {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
-	width: calc((100vw - 12rem) * 0.25);
+	width: calc((100vw - var(--navWidth)) * 0.25);
 	line-height: 0;
 }
 

@@ -14,7 +14,6 @@ main {
 }
 #About {
 	flex-grow: 1;
-
 	max-width: 100%;
 	padding: 3rem 1rem;
 	display: flex;
@@ -25,7 +24,6 @@ main {
 
 #Me {
 	flex-grow: 1;
-
 	max-width: 100%;
 	line-height: 0;
 }
