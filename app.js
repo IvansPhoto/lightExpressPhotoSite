@@ -2,10 +2,14 @@ const express = require('express')
 const hbs = require('hbs')
 const path = require('path')
 const compression = require('compression')
+const helmet = require('helmet')
 const app = express()
 const PORT = process.env.PORT || 3001
 
 const mongoConnect = require('./models/mongoConnect')
+
+//Helmet protection
+app.use(helmet())
 
 //Compression, but it doesn't compress.
 app.use(compression({ threshold: 0 }))

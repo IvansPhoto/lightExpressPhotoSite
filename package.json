@@ -16,6 +16,7 @@
 		"compression": "^1.7.4",
 		"express": "^4.17.1",
 		"hbs": "^4.0.5",
+		"helmet": "^3.21.1",
 		"html-minifier": "^4.0.0",
 		"mongoose": "^5.7.3"
 	},
