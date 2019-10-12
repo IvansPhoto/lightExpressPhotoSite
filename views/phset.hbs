@@ -4,7 +4,7 @@
 		<picture id="{{@index}}">
 			<source srcset="/images/{{../photoSet.folder}}/{{this}}_480.webp 480w,
 								/images/{{../photoSet.folder}}/{{this}}_960.webp 960w,
-								/images/{{../photoSet.folder}}/{{this}}_1920.webp 1920w" type="image/webp" sizes="70w">
+								/images/{{../photoSet.folder}}/{{this}}_1920.webp 1920w" type="image/webp" sizes="70vw">
 			<img src="/images/{{../photoSet.folder}}/{{this}}_1920.jpg" alt="{{../photoSet.name}}" loading="lazy">
 		</picture>
 	{{/each}}
@@ -15,7 +15,7 @@
 		<picture>
 			<source srcset="/images/{{../photoSet.folder}}/{{this}}_480.webp 480w,
 								/images/{{../photoSet.folder}}/{{this}}_960.webp 960w,
-								/images/{{../photoSet.folder}}/{{this}}_1920.webp 1920w" type="image/webp" sizes="(min-width: 700px) 20vw, 100w">
+								/images/{{../photoSet.folder}}/{{this}}_1920.webp 1920w" type="image/webp" sizes="(min-width: 700px) 20vw, 100vw">
 			<img src="/images/{{../photoSet.folder}}/{{this}}_1920.jpg" alt="{{../photoSet.name}}" loading="lazy" index="{{@index}}">
 		</picture>
 	{{/each}}
