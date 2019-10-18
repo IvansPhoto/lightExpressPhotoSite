@@ -8,7 +8,7 @@ gallery.addEventListener('click', ev => {
 	const imgFolder = ev.target.attributes.folder.value // Get a folder name of an image from gallery
 
 	bigImage.classList.toggle('opacity-1') // For animation - remove "opacity: 1"
-	bigImage.classList.toggle('opacity-0') // For animation - add "opacity: 1"
+	bigImage.classList.toggle('opacity-0') // For animation - add "opacity: 0"
 
 	setTimeout(() => {
 		bigSource.srcset = `/images/${imgFolder}/${imgNumber}_480.webp 480w, /images/${imgFolder}/${imgNumber}_960.webp 960w, /images/${imgFolder}/${imgNumber}_1920.webp 1920w`
