@@ -7,15 +7,16 @@
 	position: sticky;
 	top: 3vh;
 	width: calc((100vw - var(--navWidth)) * 0.75);
-	padding: 0 3rem;
 }
 
-#bigImage picture {
-	display: none;
+.opacity-0 {
+	opacity: 0;
+	transition: opacity 250ms;
 }
 
-.shown {
-	display: flex !important;
+.opacity-1 {
+	opacity: 1;
+	transition: opacity 250ms;
 }
 
 img {
