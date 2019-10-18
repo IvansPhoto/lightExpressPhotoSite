@@ -22,7 +22,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.11.1" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/models" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/views" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -32,11 +32,12 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\Documents\GitHub\lightExpressPhotoSite\models" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\Documents\GitHub\lightExpressPhotoSite\data" />
+      <recent name="C:\Users\Administrator\Documents\GitHub\lightExpressPhotoSite\models" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Documents\GitHub\lightExpressPhotoSite\views" />
       <recent name="C:\Users\Administrator\Documents\GitHub\lightExpressPhotoSite\models" />
     </key>
   </component>
@@ -99,7 +100,7 @@
       <workItem from="1571257757104" duration="1210000" />
       <workItem from="1571334718650" duration="919000" />
       <workItem from="1571343377183" duration="1220000" />
-      <workItem from="1571387742811" duration="4888000" />
+      <workItem from="1571387742811" duration="9214000" />
     </task>
     <servers />
   </component>

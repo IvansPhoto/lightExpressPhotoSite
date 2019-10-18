@@ -1,0 +1,18 @@
+<main>
+	<h1>{{message}}</h1>
+	{{#if error.status}}
+		<h2>{{error.status}}</h2>
+	{{/if}}
+	<pre>{{error.stack}}</pre>
+</main>
+<style>
+	main {
+		display: grid;
+		grid: auto / 1fr;
+		align-items: center;
+		justify-items: center;
+	}
+	pre {
+		color: var(--colorDark);
+	}
+</style>
