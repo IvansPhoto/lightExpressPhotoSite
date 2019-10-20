@@ -14,11 +14,12 @@
 	"author": "Ivan",
 	"dependencies": {
 		"compression": "^1.7.4",
+		"config": "^3.2.3",
 		"express": "^4.17.1",
-		"http-errors": "~1.6.3",
 		"hbs": "^4.0.5",
 		"helmet": "^3.21.1",
 		"html-minifier": "^4.0.0",
+		"http-errors": "~1.6.3",
 		"mongoose": "^5.7.3"
 	},
 	"devDependencies": {
