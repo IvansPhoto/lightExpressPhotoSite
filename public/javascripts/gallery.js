@@ -15,9 +15,21 @@ gallery.addEventListener('click', ev => {
 		bigImage.src = `/images/${imgFolder}/${imgNumber}_1920.jpg`
 	}, 250)
 
-	setTimeout(() => {
-		bigImage.classList.toggle('opacity-1')
-		bigImage.classList.toggle('opacity-0')
-	}, 350)
 
+	bigImage.onload = () => {
+		setTimeout(() => {
+			bigImage.classList.toggle('opacity-1')
+			bigImage.classList.toggle('opacity-0')
+		}, 350)
+	}
+
+	// const img = new Image()
+	// img.src = `/images/${imgFolder}/${imgNumber}_1920.jpg`
+	// const source = new HTMLSourceElement()
+	// source.srcset = `/images/${imgFolder}/${imgNumber}_480.webp 480w, /images/${imgFolder}/${imgNumber}_960.webp 960w, /images/${imgFolder}/${imgNumber}_1920.webp 1920w`
+	// img.onload = () => {
+	// 	bigImage.classList.toggle('opacity-1')
+	// 	bigImage.classList.toggle('opacity-0')
+	// }
 })
+

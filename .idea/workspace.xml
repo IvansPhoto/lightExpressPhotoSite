@@ -53,7 +53,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Attach to Node.js/Chrome.Inspect">
+    <configuration name="Inspect" type="ChromiumRemoteDebugType" factoryName="Chromium Remote" port="3003">
+      <method v="2" />
+    </configuration>
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -64,6 +67,10 @@
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Attach to Node.js/Chrome.Inspect" />
+      <item itemvalue="npm.build" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="npm.build" />
@@ -101,7 +108,12 @@
       <workItem from="1571334718650" duration="919000" />
       <workItem from="1571343377183" duration="1220000" />
       <workItem from="1571387742811" duration="10104000" />
-      <workItem from="1571559770699" duration="4005000" />
+      <workItem from="1571559770699" duration="11959000" />
+      <workItem from="1571643624514" duration="2263000" />
+      <workItem from="1571653803235" duration="14000" />
+      <workItem from="1571656025686" duration="2545000" />
+      <workItem from="1571681154287" duration="1872000" />
+      <workItem from="1571688318673" duration="1323000" />
     </task>
     <servers />
   </component>
