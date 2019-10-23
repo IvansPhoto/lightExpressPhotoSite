@@ -1,28 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="476e2a7f-55fd-4c20-af94-a3f6cfe282e1" name="Default Changelist" comment="" />
+    <list default="true" id="62712b11-df1e-4792-af2f-6a8e38364c90" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
-  <component name="PackageJsonUpdateNotifier">
-    <dismissed value="$PROJECT_DIR$/package.json" />
-  </component>
-  <component name="ProjectId" id="1RpD4xRKiW1kZHPoOtxkmyQEral" />
+  <component name="ProjectId" id="1SYGJ9ApiMg61ITJCauP2HVm35S" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="12.11.1" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/views" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.13.0" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -30,16 +19,6 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\Documents\GitHub\lightExpressPhotoSite\data" />
-      <recent name="C:\Users\Administrator\Documents\GitHub\lightExpressPhotoSite\models" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\Documents\GitHub\lightExpressPhotoSite\views" />
-      <recent name="C:\Users\Administrator\Documents\GitHub\lightExpressPhotoSite\models" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -53,68 +32,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Attach to Node.js/Chrome.Inspect">
-    <configuration name="Inspect" type="ChromiumRemoteDebugType" factoryName="Chromium Remote" port="3003">
-      <method v="2" />
-    </configuration>
-    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="build" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Attach to Node.js/Chrome.Inspect" />
-      <item itemvalue="npm.build" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="npm.build" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="476e2a7f-55fd-4c20-af94-a3f6cfe282e1" name="Default Changelist" comment="" />
-      <created>1570354956510</created>
+      <changelist id="62712b11-df1e-4792-af2f-6a8e38364c90" name="Default Changelist" comment="" />
+      <created>1571733040443</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1570354956510</updated>
-      <workItem from="1570354957635" duration="3114000" />
-      <workItem from="1570439436303" duration="8975000" />
-      <workItem from="1570465961925" duration="742000" />
-      <workItem from="1570466757760" duration="6483000" />
-      <workItem from="1570529681861" duration="321000" />
-      <workItem from="1570566868727" duration="965000" />
-      <workItem from="1570608556607" duration="9029000" />
-      <workItem from="1570636632774" duration="25000" />
-      <workItem from="1570639195444" duration="620000" />
-      <workItem from="1570711919597" duration="596000" />
-      <workItem from="1570716222363" duration="2813000" />
-      <workItem from="1570721696972" duration="1436000" />
-      <workItem from="1570815747897" duration="1667000" />
-      <workItem from="1570825226689" duration="824000" />
-      <workItem from="1570863824954" duration="2504000" />
-      <workItem from="1570913715192" duration="576000" />
-      <workItem from="1571171074171" duration="882000" />
-      <workItem from="1571257757104" duration="1210000" />
-      <workItem from="1571334718650" duration="919000" />
-      <workItem from="1571343377183" duration="1220000" />
-      <workItem from="1571387742811" duration="10104000" />
-      <workItem from="1571559770699" duration="11959000" />
-      <workItem from="1571643624514" duration="2263000" />
-      <workItem from="1571653803235" duration="14000" />
-      <workItem from="1571656025686" duration="2545000" />
-      <workItem from="1571681154287" duration="1872000" />
-      <workItem from="1571688318673" duration="1433000" />
-      <workItem from="1571689911325" duration="70000" />
+      <updated>1571733040443</updated>
+      <workItem from="1571733042904" duration="10542000" />
+      <workItem from="1571822354060" duration="1985000" />
+      <workItem from="1571824706949" duration="312000" />
     </task>
     <servers />
   </component>

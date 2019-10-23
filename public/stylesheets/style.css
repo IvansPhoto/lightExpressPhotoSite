@@ -12,7 +12,7 @@
 	--colorGreyL: hsl(0, 0%, 75%);
 	--colorGrey: hsl(0, 0%, 50%);
 	--colorGreyD: hsl(0, 0%, 25%);
-	--navWidth: 10vw;
+	--navWidth: 12rem;
 }
 
 body {
@@ -63,7 +63,8 @@ nav {
 	width: var(--navWidth);
 	height: min-content;
 	top: 2.25rem;
-	margin: 2.25rem 0.5rem 0 1.75rem;
+	/*margin: 2.25rem 0.5rem 0 1.75rem;*/
+	padding: 0.25rem 0.5rem 0 1.75rem;
 
 	box-sizing: border-box;
 	display: flex;

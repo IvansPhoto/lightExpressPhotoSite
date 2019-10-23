@@ -14,15 +14,20 @@ a, picture {
 main {
 	line-height: 0;
 	width: 100%;
-	display: grid;
-	grid: auto / repeat(3, 1fr);
-	gap: 0;
-	align-items: center;
-	align-content: center;
-	justify-items: center;
+	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
+	/*display: grid;*/
+	/*grid: auto / repeat(3, 1fr);*/
+	/*gap: 0;*/
+	/*align-items: center;*/
+	/*align-content: center;*/
+	/*justify-items: center;*/
+	/*justify-content: center;*/
 }
-
+a {
+	width: calc((99vw - var(--navWidth)) / 3)
+}
 img {
 	border: 0;
 	box-sizing: border-box;
@@ -34,7 +39,11 @@ img {
 		margin-left: 3rem;
 	}
 	main {
-		grid-template-columns: 1fr;
+		/*grid-template-columns: 1fr;*/
+		flex-direction: column;
+	}
+	a {
+		width: 100%;
 	}
 }
 

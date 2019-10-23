@@ -1,16 +1,12 @@
 <main id="bigImage">
 	<h1>{{photoSet.name}}</h1>
 	<p>{{photoSet.description}}</p>
-
 	<picture>
 		<source srcset="/images/{{photoSet.folder}}/{{#each photoSet.photos}}{{#if @first}}{{this}}{{/if}}{{/each}}_480.webp 480w,
 								/images/{{photoSet.folder}}/{{#each photoSet.photos}}{{#if @first}}{{this}}{{/if}}{{/each}}_960.webp 960w,
-								/images/{{photoSet.folder}}/{{#each photoSet.photos}}{{#if @first}}{{this}}{{/if}}{{/each}}_1920.webp 1920w" type="image/webp" sizes="(min-width: 700px) 70vw, 100vw">
-		<img src="/images/{{photoSet.folder}}/{{#each photoSet.photos}}{{#if @first}}{{this}}{{/if}}{{/each}}_1920.jpg" alt="{{photoSet.name}}" loading="lazy" class="opacity-1">
+								/images/{{photoSet.folder}}/{{#each photoSet.photos}}{{#if @first}}{{this}}{{/if}}{{/each}}_1920.webp 1920w" type="image/webp" sizes="calc(100vw - 12rem - 20vw)">
+		<img src="/images/{{photoSet.folder}}/{{#each photoSet.photos}}{{#if @first}}{{this}}{{/if}}{{/each}}_1920.jpg" alt="{{photoSet.name}}">
 	</picture>
-
-
-
 </main>
 <div id="gallery">
 	{{#each photoSet.photos}}
