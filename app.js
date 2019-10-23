@@ -23,34 +23,34 @@ app.use(express.static(path.join(__dirname, 'public')))
 
 
 // html-minifier
-app.use((req, res, next) => {
-	const render = res.render
-	res.render = function (view, in_options, fn) {
-		let self = this
-		let options = in_options || {};
-		const req = this.req
-		let defaultFn
-
-		if (typeof options == 'function') {
-			fn = options
-			options = {}
-		}
-		defaultFn = (err, str) => {
-			if (err) return req.next(err)
-			self.send(str)
-		}
-		if(typeof fn != 'function') fn = defaultFn
-
-		render.call(self, view, options, (err, html) => {
-			const minify = require('html-minifier').minify
-			let result = html
-			try { result = minify(html, {removeAttributeQuotes: true,	minifyCSS: true, collapseWhitespace: true} )}
-			catch (e) { console.log(e) }
-			fn(err, result)
-		})
-	}
-	next()
-})
+// app.use((req, res, next) => {
+// 	const render = res.render
+// 	res.render = function (view, in_options, fn) {
+// 		let self = this
+// 		let options = in_options || {};
+// 		const req = this.req
+// 		let defaultFn
+//
+// 		if (typeof options == 'function') {
+// 			fn = options
+// 			options = {}
+// 		}
+// 		defaultFn = (err, str) => {
+// 			if (err) return req.next(err)
+// 			self.send(str)
+// 		}
+// 		if(typeof fn != 'function') fn = defaultFn
+//
+// 		render.call(self, view, options, (err, html) => {
+// 			const minify = require('html-minifier').minify
+// 			let result = html
+// 			try { result = minify(html, {removeAttributeQuotes: true,	minifyCSS: true, collapseWhitespace: true} )}
+// 			catch (e) { console.log(e) }
+// 			fn(err, result)
+// 		})
+// 	}
+// 	next()
+// })
 
 
 app.use('/', require('./routes/index'))
