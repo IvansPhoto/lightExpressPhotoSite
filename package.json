@@ -8,7 +8,7 @@
 	},
 	"scripts": {
 		"start": "node app.js",
-		"build": "node app.js",
+		"build": "pm2 restart ecosystem.config.js",
 		"dev": "nodemon app.js"
 	},
 	"author": "Ivan",
@@ -19,7 +19,8 @@
 		"helmet": "^3.21.2",
 		"html-minifier": "^4.0.0",
 		"http-errors": "~1.6.3",
-		"mongoose": "^5.7.6"
+		"mongoose": "^5.7.6",
+		"pm2": "^4.1.2"
 	},
 	"devDependencies": {
 		"nodemon": "^1.19.3"
