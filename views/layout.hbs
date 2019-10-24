@@ -6,21 +6,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="Description" content="Site about the photography of Ivan Pavlov.">
 	<link rel="icon" href="/images/favicon.ico">
-	{{#if metaTags}}
 		<meta name="keywords" content="{{metaTags}}">
-	{{/if}}
 	<link rel='stylesheet' href='/stylesheets/style.css'/>
-	{{#if pageStyle}}
 		<link rel='stylesheet' href='/stylesheets/{{pageStyle}}.css'/>
-	{{/if}}
 	<script defer src="/javascripts/mobileNav.js"></script>
-	{{#if pageScript}}
 		<script defer src="/javascripts/{{pageScript}}.js"></script>
-	{{/if}}
 </head>
 <body>
 {{> _nav}}
-
 {{{body}}}
 </body>
 </html>
