@@ -12,15 +12,17 @@ const mongoConnect = require('./models/mongoConnect')
 //Helmet protection
 app.use(helmet())
 
-//Compression, but it doesn't compress.
+//Compression
 app.use(compression({ threshold: 0 }))
 
+//View engine hbs
 app.set('view engine', 'hbs')
 app.set('views', path.join(__dirname, 'views'))
 app.set('layout', 'layouts/layout')
 hbs.registerPartials(__dirname + '/views/partials')
-app.use(express.static(path.join(__dirname, 'public')))
 
+//Static files
+app.use(express.static(path.join(__dirname, 'public')))
 
 // html-minifier
 // app.use((req, res, next) => {
@@ -51,8 +53,6 @@ app.use(express.static(path.join(__dirname, 'public')))
 // 	}
 // 	next()
 // })
-
-
 app.use('/', require('./routes/index'))
 app.use('/portraits', require('./routes/portraits'))
 app.use('/portraits/', require('./routes/phset'))

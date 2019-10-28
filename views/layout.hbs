@@ -10,7 +10,9 @@
 	<link rel='stylesheet' href='/stylesheets/style.css'/>
 		<link rel='stylesheet' href='/stylesheets/{{pageStyle}}.css'/>
 	<script defer src="/javascripts/mobileNav.js"></script>
+	{{#if pageScript}}
 		<script defer src="/javascripts/{{pageScript}}.js"></script>
+	{{/if}}
 </head>
 <body>
 {{> _nav}}

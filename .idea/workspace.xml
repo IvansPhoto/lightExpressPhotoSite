@@ -12,13 +12,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1SYGJ9ApiMg61ITJCauP2HVm35S" />
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.13.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/views" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -26,6 +29,17 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Documents\GitHub\lightExpressPhotoSite\views" />
+      <recent name="C:\Users\Administrator\Documents\GitHub\lightExpressPhotoSite" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Documents\GitHub\lightExpressPhotoSite\views-exphbs" />
+      <recent name="C:\Users\Administrator\Documents\GitHub\lightExpressPhotoSite\views-exphbs\layouts" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -70,7 +84,12 @@
       <workItem from="1571822354060" duration="1985000" />
       <workItem from="1571824706949" duration="6623000" />
       <workItem from="1571899300755" duration="10211000" />
-      <workItem from="1571942188465" duration="58000" />
+      <workItem from="1571942188465" duration="722000" />
+      <workItem from="1571948608732" duration="2413000" />
+      <workItem from="1572026173106" duration="2451000" />
+      <workItem from="1572101457278" duration="2913000" />
+      <workItem from="1572167516272" duration="15304000" />
+      <workItem from="1572281097277" duration="612000" />
     </task>
     <servers />
   </component>
